@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Users/jakekrayger/Desktop/images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-image: url(../images/white-light-stone-floor-texture-background_40415-296\ copy.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -34,7 +34,6 @@ h2 {
 
 h3 {
     padding-top: 15px;
-    padding-left: 15px;
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: cadetblue;
@@ -107,6 +106,7 @@ hr {
     color: gray;
     padding: 5px;
     margin-bottom: 15px;
+    font-size: 15px;
  }
   .sub-button:hover {
     background-color: rgba(38, 201, 193, 0.507);
@@ -133,7 +133,7 @@ form {
 .navbar-nav a {
     color: rgb(88, 88, 88);
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 0px 8px;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
 }

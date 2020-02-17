@@ -1,0 +1,139 @@
+body {
+    background-image: url(/Users/jakekrayger/Desktop/images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid {
+    max-width: 960px;
+    padding: 0;
+}
+.container {
+    border: 1px lightgray solid;
+    background-color: white;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+h2 {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: cadetblue;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+ #indent {
+     text-indent: 50px;
+ }
+
+ .btm-footer {
+     background-color: gray;
+     text-align: center;
+     margin: 0;
+     height: 50px;
+     border-top: 8px solid cadetblue;
+ }
+ .footy {
+     margin: 0;
+     font-size: 12px;
+     padding: 0;
+ }
+ p {
+     padding: 0px 10px 10px 10px;
+ }
+ 
+ img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+ }
+
+ .about-img {
+     width: 150px;
+     height: 150px;
+ }
+
+ .con4-img {
+     position: relative;
+     text-align: center;
+ }
+
+ h4 {
+     position: absolute;
+     bottom: 0;
+     right: 0px;
+     left: 10px;
+     margin: 0;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 20px;
+     background-color: cadetblue;
+     color: white;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     
+ }
+
+ .col-md-4 {
+     padding: 0;
+ }
+
+ .sub-button {
+    border: 1.5px lightseagreen solid;
+    color: gray;
+    padding: 5px;
+    margin-bottom: 15px;
+ }
+  .sub-button:hover {
+    background-color: rgba(38, 201, 193, 0.507);
+    transition: all 0.5s ease-in;
+}
+
+input, #name, #email, #message {
+    border-color: lightgray;
+
+}
+
+form {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(95, 158, 160, 0.493);
+    transition: all 0.5s ease-in;
+    border: 1px solid gray;
+}
+
+.navbar-nav a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}

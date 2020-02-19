@@ -8,6 +8,7 @@ body {
     max-width: 960px;
     padding: 0;
 }
+
 .container {
     border: 1px lightgray solid;
     background-color: white;
@@ -44,71 +45,75 @@ hr {
     margin-top: 10px;
     margin-bottom: 15px;
 }
- #indent {
-     text-indent: 50px;
+
+#indent {
+    text-indent: 50px;
  }
 
- .btm-footer {
-     background-color: gray;
-     text-align: center;
-     margin: 0;
-     height: 50px;
-     border-top: 8px solid cadetblue;
+.btm-footer {
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    border-top: 8px solid cadetblue;
  }
- .footy {
-     margin: 0;
-     font-size: 12px;
-     padding: 0;
+
+.footy {
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
  }
- p {
-     padding: 0px 10px 10px 10px;
+
+p {
+    padding: 0px 10px 10px 10px;
  }
  
- img {
+img {
     height: 200px;
     width: 300px;
     margin-bottom: 15px;
     margin-left: 10px;
  }
 
- .about-img {
-     width: 150px;
-     height: 150px;
+.about-img {
+    width: 150px;
+    height: 150px;
  }
 
  .con4-img {
-     position: relative;
-     text-align: center;
+    position: relative;
+    text-align: center;
  }
 
  h4 {
-     position: absolute;
-     bottom: 0;
-     right: 0px;
-     left: 10px;
-     margin: 0;
-     margin-left: 5px;
-     margin-right: 5px;
-     margin-bottom: 20px;
-     background-color: cadetblue;
-     color: white;
-     padding-top: 5px;
-     padding-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    left: 10px;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
      
  }
 
- .col-md-4 {
-     padding: 0;
+.col-md-4 {
+    padding: 0;
  }
 
- .sub-button {
+.sub-button {
     border: 1.5px lightseagreen solid;
     color: gray;
     padding: 5px;
     margin-bottom: 15px;
     font-size: 15px;
  }
-  .sub-button:hover {
+
+.sub-button:hover {
     background-color: rgba(38, 201, 193, 0.507);
     transition: all 0.5s ease-in;
 }

@@ -83,6 +83,7 @@ img {
  .con4-img {
     position: relative;
     text-align: center;
+    width: 100%;
  }
 
  h4 {
@@ -91,14 +92,19 @@ img {
     right: 0px;
     left: 10px;
     margin: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
     margin-bottom: 20px;
     background-color: cadetblue;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 1;
      
+ }
+ .port-img {
+     width: 100%;
+     padding-right: 10px;
  }
 
 .col-md-4 {
@@ -149,4 +155,88 @@ form {
 
 .footr1 {
     height: 40px;
+}
+
+@media only screen and (max-width: 980px) {
+    
+
+    .port-img {
+        
+        width: 100%;
+        padding-right: 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .con4-img {
+        position: relative;
+        text-align: center;
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+     .container {
+         margin: auto;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .container-fluid {
+        max-width: 960px;
+        padding: 0;
+        margin: auto;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+    .port-img {
+        
+        width: 100%;
+        padding-right: 0;
+        height: 400px;
+        margin-right: 0px;
+        margin-left: 0;
+    }
+
+    .con4-img {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .container {
+        margin-right: 0;
+        width: 100%;
+        margin-left: 0;
+        padding-right: 15px;
+    }
+
+    .container-fluid {
+        margin-left: 0;
+    }
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h4 {
+        left: 0px;
+    }
 }
